@@ -16,15 +16,15 @@ spec:
     spec:
       containers:
       - name: udagram-reverseproxy
-        image: foxcoder508/udagram-reverseproxy:v1
+        image: foxcoder508/udagram-reverseproxy:v3
         imagePullPolicy: Always
         resources:
           requests:
             memory: "64Mi"
-            cpu: "250m"
+            cpu: 250m
           limits:
             memory: "1024Mi"
-            cpu: "500m"
+            cpu: 500m
         ports:
         - containerPort: 8080
       restartPolicy: Always

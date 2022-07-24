@@ -16,15 +16,15 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: foxcoder508/udagram-api-user:v1
+        image: foxcoder508/udagram-api-user:v3
         imagePullPolicy: Always
         resources:
           requests:
             memory: "128Mi"
-            cpu: "250m"
+            cpu: 250m
           limits:
             memory: "2048Mi"
-            cpu: "500m"
+            cpu: 500m
         ports:
         - containerPort: 8080
         env:

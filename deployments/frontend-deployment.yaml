@@ -17,15 +17,15 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: foxcoder508/udagram-frontend:v1
+        image: foxcoder508/udagram-frontend:v3
         imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources:
           requests:
             memory: "64Mi"
-            cpu: "250m"
+            cpu: 250m
           limits:
             memory: "1024Mi"
-            cpu: "500m"
+            cpu: 500m
       restartPolicy: Always
