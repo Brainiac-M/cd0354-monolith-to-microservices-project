@@ -3,6 +3,8 @@ kind: ConfigMap
 metadata:
   name: env-configmap
 data:
+  POSTGRES_USERNAME: project3
+  POSTGRES_PASSWORD: project3
   AWS_BUCKET: mahmood-project3-bucket
   AWS_PROFILE: default
   AWS_REGION: us-east-1
