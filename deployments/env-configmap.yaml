@@ -3,12 +3,12 @@ kind: ConfigMap
 metadata:
   name: env-configmap
 data:
-  POSTGRES_USERNAME: project3
-  POSTGRES_PASSWORD: project3
-  AWS_BUCKET: mahmood-project3-bucket
+  POSTGRES_USERNAME: mahmood
+  POSTGRES_PASSWORD: mahmood-database
+  AWS_BUCKET: mahmood-udagram-bucket
   AWS_PROFILE: default
   AWS_REGION: us-east-1
   JWT_SECRET: test
   POSTGRES_DB: postgres
-  POSTGRES_HOST: project3-database.ckfse4xku6vf.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: udagram-database.crnkvltznz7t.us-east-1.rds.amazonaws.com
   URL: http//:localhost:8100

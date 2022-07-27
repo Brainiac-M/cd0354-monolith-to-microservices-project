@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/foxcoder508/udagram-frontend:v3
+        image: docker.io/foxcoder508/udagram-frontend:v5
         ports: 
         - containerPort: 80
         resources:
